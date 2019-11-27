@@ -18,7 +18,7 @@
    
    iii) We can create general CFG(context free grammar) by adding more POS tags further to analyze sentence structure but here we have        created grammar with three postags NNP, VBD/VBN or NN for sentences having postags only these one.
    
-4. If your tree whether it is in string format or not. To avoid doubt, we use below method to parse a tree from a string with parentheses.
+4. If your tree whether it is in string format or not. To avoid doubt, we use below method to parse a tree from a string tree with parentheses.
 > Tree.fromstring(str(tree)) 
 
 5. Using this constructed CFG and parse tree, we identify clauses from a sentence or written text and we print them out.
